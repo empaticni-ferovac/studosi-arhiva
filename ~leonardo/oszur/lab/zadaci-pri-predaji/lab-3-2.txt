@@ -1,0 +1,3 @@
+﻿Iz grane *master* napraviti novu granu lab3x i u njoj ostvariti slijedeću izmjenu (u 05/03): pri oslobađanju blokova, ne spajati blokove koji se nalaze u prvoj trećini memorije namijenjene za dinamičko upravljanje memorijom (dodati globalnu varijablu koja će imati tu graničnu adresu).
+Dodati primjere korištenja te ispise u funkciji ffs_free koji će prikazati da se navedeno pravilo primjenjuje samo na takve blokove.
+Napravljeno postaviti u repozitorij (u granu lab3x).
