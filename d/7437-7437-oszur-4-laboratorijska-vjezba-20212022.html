@@ -1,0 +1,324 @@
+﻿<!doctype html>
+<html dir="ltr" lang="hr">
+    <head>
+        <meta charset="utf-8">
+        <title>[OSZUR] 4. laboratorijska vježba - 2021/2022 - Studoši</title>
+
+        <link rel="canonical" href="7437-oszur-4-laboratorijska-vjezba-20212022.html">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1">
+<meta name="description" content="Online zajednica studenata Republike Hrvatske - Fakultet elektrotehnike i računarstva, Zagreb">
+<meta name="theme-color" content="#43ada9">
+<meta name="color-scheme" content="dark light">
+<link rel="stylesheet" media="" class="nightmode-light" href="../assets/forum.css?v=353eb345">
+<link rel="stylesheet" media="(prefers-color-scheme: dark)" class="nightmode-dark" href="../assets/forum-dark.css?v=6748225c">
+<script src="../assets/extensions/zerosonesfun-inline-audio/sm2.js"></script><script src="../assets/extensions/zerosonesfun-inline-audio/bar-ui.js"></script><script src="../assets/extensions/zerosonesfun-inline-audio/inline-player.js"></script><script src="../assets/extensions/zerosonesfun-inline-audio/reboot.js"></script>
+<link rel="icon" sizes="16x16" href="../assets/icons/icon-16.png">
+<link rel="icon" sizes="32x32" href="../assets/icons/icon-32.png">
+<link rel="icon" sizes="48x48" href="../assets/icons/icon-48.png">
+<link rel="icon" sizes="96x96" href="../assets/icons/icon-96.png">
+<link rel="icon" sizes="144x144" href="../assets/icons/icon-144.png">
+<link rel="icon" sizes="192x192" href="../assets/icons/icon-192.png">
+<link rel="icon" sizes="256x256" href="../assets/icons/icon-256.png">
+<link rel="icon" sizes="384x384" href="../assets/icons/icon-384.png">
+<link rel="icon" sizes="512x512" href="../assets/icons/icon-512.png">
+<link rel="apple-touch-icon" sizes="57x57" href="../assets/icons/apple-touch-icon-57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="../assets/icons/apple-touch-icon-60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="../assets/icons/apple-touch-icon-72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="../assets/icons/apple-touch-icon-76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="../assets/icons/apple-touch-icon-114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="../assets/icons/apple-touch-icon-120.png">
+<link rel="apple-touch-icon" sizes="152x152" href="../assets/icons/apple-touch-icon-152.png">
+<link rel="apple-touch-icon" sizes="167x167" href="../assets/icons/apple-touch-icon-167.png">
+<link rel="apple-touch-icon" sizes="180x180" href="../assets/icons/apple-touch-icon-180.png">
+<style>
+        @font-face {
+          font-family: "Chinese Rocks";
+          font-weight: normal;
+          src: url("../assets/fonts/Chinese Rocks/chineserocksrg.eot");
+          src: local("Chinese Rocks"),
+               url("../assets/fonts/Chinese Rocks/chineserocksrg-1.eot") format("embedded-opentype"),
+               url("../assets/fonts/Chinese Rocks/chineserocksrg.otf") format("opentype"),
+               url("../assets/fonts/Chinese Rocks/chineserocksrg.svg") format("svg"),
+               url("../assets/fonts/Chinese Rocks/chineserocksrg.ttf") format("truetype"),
+               url("../assets/fonts/Chinese Rocks/chineserocksrg.woff") format("woff"),
+               url("../assets/fonts/Chinese Rocks/chineserocksrg.woff2") format("woff2");
+        }
+        </style>
+    </head>
+
+    <body>
+        <link rel="apple-touch-icon" href="assets/favicon-hhau930h.png">
+
+<div id="app" class="App">
+
+    <div id="app-navigation" class="App-navigation"></div>
+
+    <div id="drawer" class="App-drawer">
+
+        <header id="header" class="App-header">
+            <div id="header-navigation" class="Header-navigation"></div>
+            <div class="container">
+                <h1 class="Header-title">
+                    <a href="../index.htm" id="home-link">
+                                                    Studoši
+                                            </a>
+                </h1>
+                <div id="header-primary" class="Header-primary"></div>
+                <div id="header-secondary" class="Header-secondary"></div>
+            </div>
+        </header>
+
+    </div>
+
+    <main class="App-content">
+        <div id="content"></div>
+
+        <div id="flarum-loading" style="display: none">
+    Učitavanje...
+</div>
+
+<noscript>
+    <div class="Alert">
+        <div class="container">
+            Ovu stranicu je najbolje pregledavati u modernom internet pregledniku s omogućenim JavaScriptom.
+        </div>
+    </div>
+</noscript>
+
+<div id="flarum-loading-error" style="display: none">
+    <div class="Alert">
+        <div class="container">
+            Nešto je pošlo po zlu prilikom učitavanja potpune inačice ove stranice. Pokušajte nasilno osvježiti ovu stranicu kako biste otklonili grešku.
+        </div>
+    </div>
+</div>
+
+<noscript id="flarum-content">
+    <div class="container">
+    <h2>[OSZUR] 4. laboratorijska vježba - 2021/2022</h2>
+
+    <div>
+                    <div>
+                                <h3>Darla</h3>
+                <div class="Post-body">
+                    <p>Hvala 🙂. Kad rjesavam 4. lab jel mijenjam kod u chapter 05/03 arm ili i386 dijelu?</p>
+                </div>
+            </div>
+
+            <hr>
+                    <div>
+                                <h3>Bucc</h3>
+                <div class="Post-body">
+                    <p><a href="7437/1.html" class="PostMention" data-id="297081">Darla</a> i386. još da za 5. dodam što mi je uzelo sat vremena života. u fs.c za include treba dodat uz par ostalih (sve sam ih kopirao iz [Chapter_05_Devices/03_Serial_port/kernel/startup.c]  )</p>
+<pre><code>#include "../../kernel/device.h"
+#include "../../kernel/fs.h"</code><script async="" crossorigin="anonymous" data-hljs-style="github" integrity="sha384-oTqfbnKDrROJYNQZI1U//Vr36HEjwJafOewSUYYyb5OXhv0r2qRQcjAP3yXa4HCg" onload="hljsLoader.highlightBlocks(this.parentNode)" src="../gh/s9e/hljs-loader%401.0.24/loader.min.js"></script></pre>
+                </div>
+            </div>
+
+            <hr>
+                    <div>
+                                <h3>nnn</h3>
+                <div class="Post-body">
+                    <p>tamo kod primjera za rješenje u drugom koraku:</p>
+
+<blockquote class="uncited"><div><ol style="list-style-type:decimal" start="2"><li>Dodati/proširiti podatkovnu strukturu<br>
+Primjerice dodati:<br>
+<pre><code>int prio; //dodati element u struct ihndlr
+
+//definirati jedan zahtjev za prekid:
+struct zahtjev {elementi: handler (struct ihndlr), obrada_u_tijeku };
+//te dodati listu za takve zahtjeve:
+static list_t zahtjevi;</code><script async="" crossorigin="anonymous" data-hljs-style="github" integrity="sha384-oTqfbnKDrROJYNQZI1U//Vr36HEjwJafOewSUYYyb5OXhv0r2qRQcjAP3yXa4HCg" onload="hljsLoader.highlightBlocks(this.parentNode)" src="../gh/s9e/hljs-loader%401.0.24/loader.min.js"></script></pre></li></ol></div></blockquote>
+
+<p>Dodao sam ovaj int u <code>./arch/i386/interrupt.c</code>, ali ne kužim šta se misli sa ovim:</p> 
+<blockquote class="uncited"><div><pre><code>//definirati jedan zahtjev za prekid:
+struct zahtjev {elementi: handler (struct ihndlr), obrada_u_tijeku };
+//te dodati listu za takve zahtjeve:
+static list_t zahtjevi;</code><script async="" crossorigin="anonymous" data-hljs-style="github" integrity="sha384-oTqfbnKDrROJYNQZI1U//Vr36HEjwJafOewSUYYyb5OXhv0r2qRQcjAP3yXa4HCg" onload="hljsLoader.highlightBlocks(this.parentNode)" src="../gh/s9e/hljs-loader%401.0.24/loader.min.js"></script></pre></div></blockquote>
+
+<p>može netko objasnit?</p>
+
+                </div>
+            </div>
+
+            <hr>
+                    <div>
+                                <h3>Bucc</h3>
+                <div class="Post-body">
+                    <p><a href="7437/3.html" class="PostMention" data-id="297197">dinoo</a> ta nova struktura zahtjev je poput strukture ihndlr samo što ima dodatne stvari u sebi. moja struct zahtjev izgleda ovako</p> 
+<pre><code>struct zahtjev {
+	void *device; //struct ihndlr
+	int irq_number;
+	int prio; //struct ihndlr (možeš, a i ne moraš stavit u struct ihndlr već samo ovdje)
+	uint8 done;
+	int (*ihandler) (unsigned int, void *device); //struct ihndlr
+};</code><script async="" crossorigin="anonymous" data-hljs-style="github" integrity="sha384-oTqfbnKDrROJYNQZI1U//Vr36HEjwJafOewSUYYyb5OXhv0r2qRQcjAP3yXa4HCg" onload="hljsLoader.highlightBlocks(this.parentNode)" src="../gh/s9e/hljs-loader%401.0.24/loader.min.js"></script></pre>
+
+<p>i onda listu za the zahtjeve</p>
+<pre><code>static list_t zahtjevi;
+
+// kasnije u func void arch_init_interrupts() iniciraš tu listu zahtjeva
+list_init(&amp;zahtjevi)
+
+// u func void arch_interrupt_handler(int irq_num)
+// dodaješ interupte u tu listu sortirane u onoj while(ih)
+// i izvan te petlje vadiš prekide po najvećem prioritetu i hendlaš ih</code><script async="" crossorigin="anonymous" data-hljs-style="github" integrity="sha384-oTqfbnKDrROJYNQZI1U//Vr36HEjwJafOewSUYYyb5OXhv0r2qRQcjAP3yXa4HCg" onload="hljsLoader.highlightBlocks(this.parentNode)" src="../gh/s9e/hljs-loader%401.0.24/loader.min.js"></script></pre>
+                </div>
+            </div>
+
+            <hr>
+                    <div>
+                                <h3>nnn</h3>
+                <div class="Post-body">
+                    <p><a href="7437/4.html" class="PostMention" data-id="297209">Olive Oil</a> hvala puno, samo nešto mi još nije jasno pa ako ti nije problem objasnit:</p>
+
+<ul><li><p>što ako se trenutno obrađuje prekid sa prioritetom 3, a dođu novi prekidi sa prioritetim 2 i 4:<br>
+(1) čeka se kraj obrade ovog prekida 3, onda se zove 4 i kad on završi 2 ili<br>
+(2) zaustavlja se obrada prekida 3,  pokrene se obrada prekida 4, po završetku se vraća nazad u obradu prekida 3, kad završi prekid 3, zove prekid 2</p></li>
+
+<li><p><del>prekide generiram  slično kao u onom <code>timer.c</code> programu sa <code>sigev_notify</code>?</del>, samo zovem prekid sa vecim prioritetom u handleru prekida sa manjim</p></li>
+
+<li><p>šta je ovaj 3. parametar:<br>
+ <code>void list_sort_add(list_t *list, void *object, list_h *hdr,  int(*cmp)(void *, void *))</code> ,<br>
+ koliko ja razumijem<br>
+ <code>list_sort_add(lista_gdje_dodajem, objekt_struct_zahtjev_kojeg_dodajem, ?, funkcija za usporedbu)</code><br>
+al opet ne razumijem taj 3. parametar</p></li></ul>
+                </div>
+            </div>
+
+            <hr>
+                    <div>
+                                <h3>Kasperinac</h3>
+                <div class="Post-body">
+                    <p>Kak raisati prekide (asinkrono nekak pretpostavljam) dok se vrsi obrada prekida?</p> 
+                </div>
+            </div>
+
+            <hr>
+                    <div>
+                                <h3>Unity</h3>
+                <div class="Post-body">
+                    <p><a href="7437/5.html" class="PostMention" data-id="297287">Kasperinac</a> tako da ga pozoves u toj obradi prekida</p>
+                </div>
+            </div>
+
+            <hr>
+                    <div>
+                                <h3>Bucc</h3>
+                <div class="Post-body">
+                    <p><a href="7437/7.html" class="PostMention" data-id="297296">dinoo</a> u onoj petlji while(ih) dodaješ prekide, a izvan nje u nekoj drugoj petlji hendlaš prekide sve dok ih ima i sve dok postoji prekid koji nije hendlan. <br>
+npr u to drugoj petlji staviš redom (meni je tak):</p>
+<pre><code>pi = list_get(&amp;pr_reqs, FIRST);
+while (pi &amp;&amp; !pi-&gt;done)
+{
+p-&gt;done = 1
+enable_interrupts(); // funkcija već postoji
+pi-&gt;ihandler(pi-&gt;irq_number, pi-&gt;device);
+disable_interrupts(); // postoji
+list_remove(&amp;pr_reqs, FIRST, NULL);
+kfree(pi);
+pi = list_get(&amp;pr_reqs, FIRST);
+}</code><script async="" crossorigin="anonymous" data-hljs-style="github" integrity="sha384-oTqfbnKDrROJYNQZI1U//Vr36HEjwJafOewSUYYyb5OXhv0r2qRQcjAP3yXa4HCg" onload="hljsLoader.highlightBlocks(this.parentNode)" src="../gh/s9e/hljs-loader%401.0.24/loader.min.js"></script></pre>
+<p>ovaj treći parametar je ne znam ni ja točno što.</p> 
+
+<p>imam nešto tipa</p> 
+<pre><code>list_h *p_lh; // nisam ni ja siguran za list_h što je, samo sam vidio da se koristio
+
+// u list_sort_add za treći parametar stavim p_lh, ovo je u onoj petlji while(ih)
+p_lh = kmalloc(sizeof(list_h));</code><script async="" crossorigin="anonymous" data-hljs-style="github" integrity="sha384-oTqfbnKDrROJYNQZI1U//Vr36HEjwJafOewSUYYyb5OXhv0r2qRQcjAP3yXa4HCg" onload="hljsLoader.highlightBlocks(this.parentNode)" src="../gh/s9e/hljs-loader%401.0.24/loader.min.js"></script></pre>
+<p>nisam ni ja baš siguran u sve to, al na neku foru mi je radilo</p>
+                </div>
+            </div>
+
+            <hr>
+                    <div>
+                                <h3>Ardura</h3>
+                <div class="Post-body">
+                    <p>Je li netko imao lab danas? Kakav je zadatak?</p>
+                </div>
+            </div>
+
+            <hr>
+                    <div>
+                                <h3>Unity</h3>
+                <div class="Post-body">
+                    <p><a href="7437/8.html" class="PostMention" data-id="297304">Maddy</a></p> 
+<ol style="list-style-type:decimal" start="4"><li>bio simulacija prekida, samo izazvat par prekida slicno primjeru koji smo trebali imati</li>
+<li>implementirati rename funkciju za datoteke</li></ol>
+                </div>
+            </div>
+
+            <hr>
+                    <div>
+                                <h3>Dlaid</h3>
+                <div class="Post-body">
+                    <p>Kad dodamo argument prioritet u funkciju za registraciju koje da prioritete dodamo ovim prekidima koji vec postoje</p>
+                </div>
+            </div>
+
+            <hr>
+                    <div>
+                                <h3>nnn</h3>
+                <div class="Post-body">
+                    <p><a href="7437/11.html" class="PostMention" data-id="297338">Peter Jordanson</a> Mislim da nije bitno, ja sam svima dodijelio 1, osim ovima koje koristim za demonstraciju</p>
+                </div>
+            </div>
+
+            <hr>
+                    <div>
+                                <h3>Valentino</h3>
+                <div class="Post-body">
+                    <p>Danas je jos bio zadatak napisati funkciju delete(filename)</p>
+                </div>
+            </div>
+
+            <hr>
+            </div>
+
+    
+    </div>
+
+</noscript>
+
+
+        <div class="App-composer">
+            <div class="container">
+                <div id="composer"></div>
+            </div>
+        </div>
+    </main>
+
+</div>
+
+
+
+
+        <div id="modal"></div>
+        <div id="alerts"></div>
+
+        <script>
+            document.getElementById('flarum-loading').style.display = 'block';
+            var flarum = {extensions: {}};
+        </script>
+
+        <script src="../assets/forum.js?v=522eb069"></script>
+<script src="../assets/forum-hr.js?v=b739ccfb"></script>
+
+        <script>
+            document.getElementById('flarum-loading').style.display = 'none';
+
+            try {
+                flarum.core.app.load({"fof-nightmode.assets.day":"https:\/\/fer.studosi.net\/assets\/forum.css?v=353eb345","fof-nightmode.assets.night":"https:\/\/fer.studosi.net\/assets\/forum-dark.css?v=6748225c","resources":[{"type":"forums","id":"1","attributes":{"title":"Studo\u0161i","description":"Online zajednica studenata Republike Hrvatske - Fakultet elektrotehnike i ra\u010dunarstva, Zagreb","showLanguageSelector":true,"baseUrl":"https:\/\/fer.studosi.net","basePath":"","debug":false,"apiUrl":"https:\/\/fer.studosi.net\/api","welcomeTitle":"Dobrodo\u0161i na Studo\u0161e!","welcomeMessage":"Registracija na Studo\u0161e FER-a zahtjeva akademsku e-mail adresu. Specifi\u010dno \u0161to se ti\u010de FER-a, mo\u017eete koristiti i ime.prezime@fer.hr varijantu, i aa12345@fer.hr varijantu. Ako vam se kojim slu\u010dajem pojavi poruka da je domena na crnoj listi ili da niste na bijeloj listi a vjerujete da se radi o pogre\u0161ci, uputite nam e-mail na \u003Ca href=\u0022mailto:info@studosi.net\u0022\u003Einfo@studosi.net\u003C\/a\u003E.\n\n\u003Cbr\u003E\u003Cbr\u003E\n\nAko niste dobili mail unutar 30 sekundi, provjerite jeste li upisali pravu e-mail adresu te je li e-mail zavr\u0161io u spam pretincu. Naj\u010de\u0161\u0107e problem bude u krivom e-mailu. Ako usprkos tome ne dobivate e-mail za potvrdu registracije, javite se na \u003Ca href=\u0022mailto:info@studosi.net\u0022\u003Einfo@studosi.net\u003C\/a\u003E.\n\n\u003Cbr\u003E\u003Cbr\u003E\n\nAko ne znate otkud po\u010deti, pogledajte neke rasprave ozna\u010dene sa \u003Cstrong\u003ESlu\u017ebeno\u003C\/strong\u003E; tamo mo\u017eete na\u0107i generi\u010dke rasprave kao upute, pravila i uvodne rije\u010di. Ako se \u017eelite predstaviti, navratite u raspravu \u003Cstrong\u003Espam\u003C\/strong\u003E - nema formata, tu se govori prakti\u010dki \u0161to god nekome padne napamet. Ako vas pak zanima samo faks, za vas je oznaka \u003Cstrong\u003EFER\u003C\/strong\u003E.","themePrimaryColor":"#43ada9","themeSecondaryColor":"#2a2a2a","logoUrl":null,"faviconUrl":null,"headerHtml":"\u003Clink rel=\u0022apple-touch-icon\u0022 href=\u0022assets\/favicon-hhau930h.png\u0022\u003E","footerHtml":null,"allowSignUp":false,"defaultRoute":"\/all","canViewForum":true,"canStartDiscussion":false,"canSearchUsers":false,"afrux-forum-widgets-core.config":{"instances":[{"id":"afrux-news-widget:news","extension":"afrux-news-widget","key":"news","placement":"top","position":0},{"id":"kyrne-websocket:WebsocketOnlineUsersWidget","extension":"kyrne-websocket","key":"WebsocketOnlineUsersWidget","placement":"start_bottom","position":0}]},"afrux-forum-widgets-core.preferDataWithInitialLoad":false,"canBypassTagCounts":false,"minPrimaryTags":"1","maxPrimaryTags":"2","minSecondaryTags":"0","maxSecondaryTags":"3","canViewFlags":false,"guidelinesUrl":"https:\/\/forum.studosi.net\/d\/24-uvjeti-koristenja","afrux-news-widget.lines":[],"canMovePosts":false,"mathren.katex_options":{"fleqn":false,"leqno":false,"output":"htmlAndMathml","throwOnError":false,"errorColor":"#cc0000","minRuleThickness":0.05,"maxSize":10,"maxExpand":1000,"macros":[],"colorIsTextColor":false},"mathren.enable_editor_buttons":true,"mathren.aliases_as_primary":true,"mathren.enable_copy_tex":true,"mathren.bbcode_delimiters":[{"left":"[math]","right":"[\/math]","display":true},{"left":"[imath]","right":"[\/imath]","display":false}],"mathren.alias_delimiters":[{"left":"$$","right":"$$","display":true},{"left":"\\\\begin{equation}","right":"\\\\end{equation}","display":true},{"left":"\\\\begin{align}","right":"\\\\end{align}","display":true},{"left":"\\\\begin{alignat}","right":"\\\\end{alignat}","display":true},{"left":"\\\\begin{gather}","right":"\\\\end{gather}","display":true},{"left":"\\\\begin{CD}","right":"\\\\end{CD}","display":true},{"left":"\\(","right":"\\)","display":false},{"left":"\\\\begin{equation}","right":"\\\\end{equation}","display":true},{"left":"\\\\begin{align}","right":"\\\\end{align}","display":true},{"left":"\\\\begin{alignat}","right":"\\\\end{alignat}","display":true},{"left":"\\\\begin{gather}","right":"\\\\end{gather}","display":true},{"left":"\\\\begin{CD}","right":"\\\\end{CD}","display":true}],"mathren.primary_block_delimiter":{"left":"[math]","right":"[\/math]","display":true},"mathren.primary_inline_delimiter":{"left":"[imath]","right":"[\/imath]","display":false},"mathren.primary_block_delimiter_alias":{"left":"$$","right":"$$","display":true},"mathren.primary_inline_delimiter_alias":{"left":"\\(","right":"\\)","display":false},"fof-cookie-consent.consentText":"Ova stranica koristi kola\u010di\u0107e kako bi koristila neke osnovne i neosnovne funkcionalnosti koje oni donose. Kori\u0161tenjem ove stranice i klikom na \u0022Prihva\u0107am\u0022 dopu\u0161tate kori\u0161tenje kola\u010di\u0107a u svake svrhe.","fof-cookie-consent.buttonText":"Prihva\u0107am","fof-cookie-consent.learnMoreLinkText":"Saznaj vi\u0161e","fof-cookie-consent.learnMoreLinkUrl":"https:\/\/hr.wikipedia.org\/wiki\/HTTP_kola%C4%8Di%C4%87i","fof-cookie-consent.backgroundColor":"#2b2b2b","fof-cookie-consent.textColor":"#ffffff","fof-cookie-consent.buttonBackgroundColor":"#178e99","fof-cookie-consent.buttonTextColor":"#ffffff","fof-cookie-consent.ccTheme":"blocky","fof-upload.canUpload":false,"fof-upload.canDownload":false,"fof-upload.composerButtonVisiblity":"both","fof-forum-statistics-widget.ignore_private_discussions":true,"fof-forum-statistics-widget.widget_order":0,"fof-forum-statistics-widget.discussionsCount":2417,"fof-forum-statistics-widget.postsCount":298488,"fof-forum-statistics-widget.usersCount":2766,"fof-forum-statistics-widget.lastUserId":2805,"displayNameDriver":"nickname","canSaveDrafts":false,"canScheduleDrafts":false,"drafts.enableScheduledDrafts":true,"canStartPrivateDiscussion":false,"canStartPrivateDiscussionWithUsers":false,"canStartPrivateDiscussionWithGroups":false,"canStartPrivateDiscussionWithBlockers":false,"byobu.icon-badge":"fas fa-map","byobu.icon-postAction":"far fa-map","flarum-markdown.mdarea":true,"allowUsernameMentionFormat":true,"fof-gamification.topimage1Url":null,"fof-gamification.topimage2Url":null,"fof-gamification.topimage3Url":null,"ReactionConverts":[null,null,null],"fof-terms.signup-legal-text":"","fof-terms.hide-updated-at":false,"fof-terms.date-format":"YYYY-MM-DD","fof-terms.canSeeUserPoliciesState":false,"canSeeUserDirectoryLink":false,"userDirectorySmallCards":false,"userDirectoryDefaultSort":"oldest","flamoji.auto_hide":true,"flamoji.show_preview":false,"flamoji.show_search":true,"flamoji.show_variants":true,"flamoji.emoji_style":"twemoji","flamoji.emoji_data":"en","flamoji.emoji_version":"12.1","flamoji.initial_category":"smileys","flamoji.show_category_buttons":true,"flamoji.show_recents":true,"flamoji.recents_count":50,"flamoji.specify_categories":"[\u0022smileys\u0022,\u0022people\u0022,\u0022animals\u0022,\u0022food\u0022,\u0022activities\u0022,\u0022travel\u0022,\u0022objects\u0022,\u0022symbols\u0022,\u0022flags\u0022]","websocketSecure":false,"websocketReverseProxy":"1","websocketPort":"2083","websocketAutoUpdate":false,"websocketKey":"FjwWSmXhBUDLo3V0O5kzZDjsIpjUgfow","websocketHost":"fer.studosi.net","websocketAuthOnly":false},"relationships":{"groups":{"data":[{"type":"groups","id":"1"},{"type":"groups","id":"2"},{"type":"groups","id":"3"},{"type":"groups","id":"4"},{"type":"groups","id":"5"},{"type":"groups","id":"6"},{"type":"groups","id":"8"}]},"tags":{"data":[{"type":"tags","id":"2"},{"type":"tags","id":"3"},{"type":"tags","id":"357"},{"type":"tags","id":"369"},{"type":"tags","id":"462"},{"type":"tags","id":"346"},{"type":"tags","id":"4"},{"type":"tags","id":"7"},{"type":"tags","id":"6"}]},"ranks":{"data":[]},"reactions":{"data":[{"type":"reactions","id":"7"},{"type":"reactions","id":"8"},{"type":"reactions","id":"9"}]},"fofTermsPolicies":{"data":[{"type":"fof-terms-policies","id":"1"},{"type":"fof-terms-policies","id":"2"}]},"links":{"data":[{"type":"links","id":"1"},{"type":"links","id":"6"}]}}},{"type":"groups","id":"1","attributes":{"nameSingular":"Don","namePlural":"Donovi","color":"#43ada9","icon":"fas fa-smoking","isHidden":0}},{"type":"groups","id":"2","attributes":{"nameSingular":"Gost","namePlural":"Gosti","color":null,"icon":null,"isHidden":0}},{"type":"groups","id":"3","attributes":{"nameSingular":"\u010clan","namePlural":"\u010clanovi","color":null,"icon":null,"isHidden":0}},{"type":"groups","id":"4","attributes":{"nameSingular":"Konsiljer","namePlural":"Konsiljeri","color":"#156129","icon":"fas fa-comment-medical","isHidden":0}},{"type":"groups","id":"5","attributes":{"nameSingular":"\u0160apica","namePlural":"\u0160apice","color":"#d46197","icon":"fas fa-paw","isHidden":0}},{"type":"groups","id":"6","attributes":{"nameSingular":"Kapo","namePlural":"Kapoi","color":"#a32e2e","icon":"fas fa-desktop","isHidden":0}},{"type":"groups","id":"8","attributes":{"nameSingular":"SZ FER","namePlural":"SZ FER","color":"#1946c3","icon":"fas fa-fist-raised","isHidden":0}},{"type":"tags","id":"2","attributes":{"name":"FER","description":"Sve vezano za Fakultet elektrotehnike i ra\u010dunarstva","slug":"fer","color":"#a32e2e","backgroundUrl":null,"backgroundMode":null,"icon":"fas fa-desktop","discussionCount":2095,"position":2,"defaultSort":null,"isChild":false,"isHidden":false,"lastPostedAt":"2022-07-01T21:35:55+00:00","canStartDiscussion":false,"canAddToDiscussion":false,"subscription":null}},{"type":"tags","id":"3","attributes":{"name":"Slu\u017ebeno","description":"Sve slu\u017ebeno vezano uz forum","slug":"official","color":"#8434ba","backgroundUrl":null,"backgroundMode":null,"icon":"fas fa-scroll","discussionCount":19,"position":0,"defaultSort":null,"isChild":false,"isHidden":false,"lastPostedAt":"2022-07-01T23:49:31+00:00","canStartDiscussion":false,"canAddToDiscussion":false,"subscription":null}},{"type":"tags","id":"357","attributes":{"name":"Oglasi","description":"Sve vezano uz oglase","slug":"ads","color":"#d80","backgroundUrl":null,"backgroundMode":null,"icon":"fas fa-bullhorn","discussionCount":59,"position":3,"defaultSort":null,"isChild":false,"isHidden":false,"lastPostedAt":"2022-06-27T20:31:54+00:00","canStartDiscussion":false,"canAddToDiscussion":false,"subscription":null}},{"type":"tags","id":"369","attributes":{"name":"Sudnica","description":"Sve vezano uz sankcioniranje entiteta","slug":"court","color":"#d131ad","backgroundUrl":null,"backgroundMode":null,"icon":"fas fa-gavel","discussionCount":28,"position":4,"defaultSort":null,"isChild":false,"isHidden":true,"lastPostedAt":"2022-06-16T22:36:51+00:00","canStartDiscussion":false,"canAddToDiscussion":false,"subscription":null}},{"type":"tags","id":"462","attributes":{"name":"Studentska politika","description":"Teme vezane uz studentsku politiku (npr. studentske zborove, fakultetska vije\u0107a i sl.)","slug":"stupol","color":"#1946c3","backgroundUrl":null,"backgroundMode":null,"icon":"fas fa-fist-raised","discussionCount":8,"position":5,"defaultSort":null,"isChild":false,"isHidden":false,"lastPostedAt":"2022-04-13T13:52:12+00:00","canStartDiscussion":false,"canAddToDiscussion":false,"subscription":null}},{"type":"tags","id":"346","attributes":{"name":"Ispiti","description":"Sve vezano uz ispite","slug":"exam","color":"#888","backgroundUrl":null,"backgroundMode":null,"icon":"fas fa-list-alt","discussionCount":551,"position":null,"defaultSort":null,"isChild":false,"isHidden":true,"lastPostedAt":"2022-07-01T18:14:22+00:00","canStartDiscussion":false,"canAddToDiscussion":false,"subscription":null}},{"type":"tags","id":"4","attributes":{"name":"Laboratorijske vje\u017ebe","description":"Organizacija, pitanja i odgovori oko laboratorijskih vje\u017ebi","slug":"lab","color":"#888","backgroundUrl":null,"backgroundMode":null,"icon":"fas fa-vial","discussionCount":399,"position":null,"defaultSort":null,"isChild":false,"isHidden":true,"lastPostedAt":"2022-06-24T14:48:32+00:00","canStartDiscussion":false,"canAddToDiscussion":false,"subscription":null}},{"type":"tags","id":"7","attributes":{"name":"Zada\u0107e","description":"Sve vrste zada\u0107a","slug":"zadace","color":"#888","backgroundUrl":null,"backgroundMode":null,"icon":"fas fa-home","discussionCount":214,"position":null,"defaultSort":null,"isChild":false,"isHidden":true,"lastPostedAt":"2022-06-30T16:13:22+00:00","canStartDiscussion":false,"canAddToDiscussion":false,"subscription":null}},{"type":"tags","id":"6","attributes":{"name":"Organizacija","description":"Dogovori o zajedni\u010dkom radu i sl.","slug":"org","color":"#888","backgroundUrl":null,"backgroundMode":null,"icon":"fas fa-handshake","discussionCount":62,"position":null,"defaultSort":null,"isChild":false,"isHidden":true,"lastPostedAt":"2022-06-17T13:38:55+00:00","canStartDiscussion":false,"canAddToDiscussion":false,"subscription":null}},{"type":"reactions","id":"7","attributes":{"identifier":"laugh","display":"Haha","type":"emoji","enabled":1}},{"type":"reactions","id":"8","attributes":{"identifier":"no_mouth","display":"WTF","type":"emoji","enabled":1}},{"type":"reactions","id":"9","attributes":{"identifier":"cry","display":"Tuga","type":"emoji","enabled":1}},{"type":"fof-terms-policies","id":"1","attributes":{"sort":null,"name":"Uvjeti kori\u0161tenja","url":"https:\/\/forum.studosi.net\/d\/24-uvjeti-koristenja","update_message":"Dodan \u010dlanak 7. pravila - svakako pro\u010ditajte.","terms_updated_at":"2020-04-22T12:34:15+00:00"}},{"type":"fof-terms-policies","id":"2","attributes":{"sort":null,"name":"GDPR privola","url":"https:\/\/forum.studosi.net\/d\/24-uvjeti-koristenja\/2","update_message":"Potrebno je dati privolu radi prikupljanja osobnih podataka, u sklopu GDPR-a.\n\nA\u017euriranje 26.03.2020.\n\nDodana je izjava koja se ti\u010de privatnih rasprava. Molim da pro\u010ditate, na dnu je GDPR privole (2. objave u raspravi).","terms_updated_at":"2020-03-26T18:03:13+00:00"}},{"type":"links","id":"1","attributes":{"id":1,"title":"MATERIJALI","icon":"fas fa-download","url":"https:\/\/github.com\/studosi-fer?tab=repositories","position":1,"isInternal":false,"isNewtab":true,"isChild":false,"visibility":"everyone"}},{"type":"links","id":"6","attributes":{"id":6,"title":"MATERIJALI","icon":"fas fa-upload","url":"https:\/\/u.pcloud.com\/#page=puplink\u0026code=BBQkZpLYXvByDAGyaeDncniB227TUy2iy","position":0,"isInternal":false,"isNewtab":true,"isChild":false,"visibility":"everyone"}}],"session":{"userId":0,"csrfToken":"aJMnlyNu4tccuRsgEjHGue5Q54y5LUfRppifAnTw"},"locales":{"hr":"Hrvatski","en":"English"},"locale":"hr","fof-nightmode.default_theme":"0","fof-follow-tags.following_page_default":"all","fof-gamification.iconName":null,"fof-gamification.pointsPlaceholder":"Pozitiva: {points}","fof-gamification.showVotesOnDiscussionPage":"0","fof-gamification.rankAmt":null,"fof-gamification.customRankingImages":"0","fof-gamification.useAlternateLayout":"0","apiDocument":{"data":{"type":"discussions","id":"7437","attributes":{"title":"[OSZUR] 4. laboratorijska vje\u017eba - 2021\/2022","slug":"7437-oszur-4-laboratorijska-vjezba-20212022","commentCount":13,"participantCount":8,"createdAt":"2022-05-18T06:53:00+00:00","lastPostedAt":"2022-05-19T14:38:40+00:00","lastPostNumber":13,"canReply":false,"canRename":false,"canDelete":false,"canHide":false,"canTag":false,"subscription":null,"isFirstMoved":false,"canMerge":false,"canSplit":false,"canEditRecipients":false,"canEditUserRecipients":false,"canEditGroupRecipients":false,"isPrivateDiscussion":false,"isLocked":false,"canLock":false,"isSticky":false,"canSticky":false,"votes":0,"canVote":false,"canSeeReactions":false},"relationships":{"posts":{"data":[{"type":"posts","id":"297081"},{"type":"posts","id":"297082"},{"type":"posts","id":"297197"},{"type":"posts","id":"297209"},{"type":"posts","id":"297287"},{"type":"posts","id":"297290"},{"type":"posts","id":"297296"},{"type":"posts","id":"297304"},{"type":"posts","id":"297318"},{"type":"posts","id":"297333"},{"type":"posts","id":"297338"},{"type":"posts","id":"297343"},{"type":"posts","id":"297344"}]},"tags":{"data":[{"type":"tags","id":"2"},{"type":"tags","id":"4"},{"type":"tags","id":"340"}]},"recipientUsers":{"data":[]},"recipientGroups":{"data":[]}}},"included":[{"type":"posts","id":"297081","attributes":{"number":1,"createdAt":"2022-05-18T06:53:00+00:00","contentType":"comment","contentHtml":"\u003Cp\u003EHvala \ud83d\ude42. Kad rjesavam 4. lab jel mijenjam kod u chapter 05\/03 arm ili i386 dijelu?\u003C\/p\u003E","canEdit":false,"canDelete":false,"canHide":false,"canFlag":false,"votes":0,"canVote":false,"canSeeVotes":false,"canReact":false},"relationships":{"discussion":{"data":{"type":"discussions","id":"7437"}},"user":{"data":{"type":"users","id":"181"}},"mentionedBy":{"data":[{"type":"posts","id":"297082"}]},"reactions":{"data":[]}}},{"type":"posts","id":"297082","attributes":{"number":2,"createdAt":"2022-05-18T07:06:46+00:00","contentType":"comment","contentHtml":"\u003Cp\u003E\u003Ca href=\u0022https:\/\/fer.studosi.net\/d\/7437\/1\u0022 class=\u0022PostMention\u0022 data-id=\u0022297081\u0022\u003EDarla\u003C\/a\u003E i386. jo\u0161 da za 5. dodam \u0161to mi je uzelo sat vremena \u017eivota. u fs.c za include treba dodat uz par ostalih (sve sam ih kopirao iz [Chapter_05_Devices\/03_Serial_port\/kernel\/startup.c]  )\u003C\/p\u003E\n\u003Cpre\u003E\u003Ccode\u003E#include \u0022..\/..\/kernel\/device.h\u0022\n#include \u0022..\/..\/kernel\/fs.h\u0022\u003C\/code\u003E\u003Cscript async=\u0022\u0022 crossorigin=\u0022anonymous\u0022 data-hljs-style=\u0022github\u0022 integrity=\u0022sha384-oTqfbnKDrROJYNQZI1U\/\/Vr36HEjwJafOewSUYYyb5OXhv0r2qRQcjAP3yXa4HCg\u0022 onload=\u0022hljsLoader.highlightBlocks(this.parentNode)\u0022 src=\u0022https:\/\/cdn.jsdelivr.net\/gh\/s9e\/hljs-loader@1.0.24\/loader.min.js\u0022\u003E\u003C\/script\u003E\u003C\/pre\u003E","canEdit":false,"canDelete":false,"canHide":false,"canFlag":false,"votes":4,"canVote":false,"canSeeVotes":false,"canReact":false},"relationships":{"user":{"data":{"type":"users","id":"917"}},"discussion":{"data":{"type":"discussions","id":"7437"}},"mentionedBy":{"data":[]},"reactions":{"data":[]}}},{"type":"posts","id":"297197","attributes":{"number":3,"createdAt":"2022-05-18T16:31:11+00:00","contentType":"comment","contentHtml":"\u003Cp\u003Etamo kod primjera za rje\u0161enje u drugom koraku:\u003C\/p\u003E\n\n\u003Cblockquote class=\u0022uncited\u0022\u003E\u003Cdiv\u003E\u003Col style=\u0022list-style-type:decimal\u0022 start=\u00222\u0022\u003E\u003Cli\u003EDodati\/pro\u0161iriti podatkovnu strukturu\u003Cbr\u003E\nPrimjerice dodati:\u003Cbr\u003E\n\u003Cpre\u003E\u003Ccode\u003Eint prio; \/\/dodati element u struct ihndlr\n\n\/\/definirati jedan zahtjev za prekid:\nstruct zahtjev {elementi: handler (struct ihndlr), obrada_u_tijeku };\n\/\/te dodati listu za takve zahtjeve:\nstatic list_t zahtjevi;\u003C\/code\u003E\u003Cscript async=\u0022\u0022 crossorigin=\u0022anonymous\u0022 data-hljs-style=\u0022github\u0022 integrity=\u0022sha384-oTqfbnKDrROJYNQZI1U\/\/Vr36HEjwJafOewSUYYyb5OXhv0r2qRQcjAP3yXa4HCg\u0022 onload=\u0022hljsLoader.highlightBlocks(this.parentNode)\u0022 src=\u0022https:\/\/cdn.jsdelivr.net\/gh\/s9e\/hljs-loader@1.0.24\/loader.min.js\u0022\u003E\u003C\/script\u003E\u003C\/pre\u003E\u003C\/li\u003E\u003C\/ol\u003E\u003C\/div\u003E\u003C\/blockquote\u003E\n\n\u003Cp\u003EDodao sam ovaj int u \u003Ccode\u003E.\/arch\/i386\/interrupt.c\u003C\/code\u003E, ali ne ku\u017eim \u0161ta se misli sa ovim:\u003C\/p\u003E \n\u003Cblockquote class=\u0022uncited\u0022\u003E\u003Cdiv\u003E\u003Cpre\u003E\u003Ccode\u003E\/\/definirati jedan zahtjev za prekid:\nstruct zahtjev {elementi: handler (struct ihndlr), obrada_u_tijeku };\n\/\/te dodati listu za takve zahtjeve:\nstatic list_t zahtjevi;\u003C\/code\u003E\u003Cscript async=\u0022\u0022 crossorigin=\u0022anonymous\u0022 data-hljs-style=\u0022github\u0022 integrity=\u0022sha384-oTqfbnKDrROJYNQZI1U\/\/Vr36HEjwJafOewSUYYyb5OXhv0r2qRQcjAP3yXa4HCg\u0022 onload=\u0022hljsLoader.highlightBlocks(this.parentNode)\u0022 src=\u0022https:\/\/cdn.jsdelivr.net\/gh\/s9e\/hljs-loader@1.0.24\/loader.min.js\u0022\u003E\u003C\/script\u003E\u003C\/pre\u003E\u003C\/div\u003E\u003C\/blockquote\u003E\n\n\u003Cp\u003Emo\u017ee netko objasnit?\u003C\/p\u003E\n","editedAt":"2022-05-18T16:50:48+00:00","canEdit":false,"canDelete":false,"canHide":false,"canFlag":false,"votes":0,"canVote":false,"canSeeVotes":false,"canReact":false},"relationships":{"discussion":{"data":{"type":"discussions","id":"7437"}},"user":{"data":{"type":"users","id":"1148"}},"editedUser":{"data":{"type":"users","id":"1"}},"mentionedBy":{"data":[{"type":"posts","id":"297209"}]},"reactions":{"data":[]}}},{"type":"posts","id":"297209","attributes":{"number":4,"createdAt":"2022-05-18T17:41:56+00:00","contentType":"comment","contentHtml":"\u003Cp\u003E\u003Ca href=\u0022https:\/\/fer.studosi.net\/d\/7437\/3\u0022 class=\u0022PostMention\u0022 data-id=\u0022297197\u0022\u003Edinoo\u003C\/a\u003E ta nova struktura zahtjev je poput strukture ihndlr samo \u0161to ima dodatne stvari u sebi. moja struct zahtjev izgleda ovako\u003C\/p\u003E \n\u003Cpre\u003E\u003Ccode\u003Estruct zahtjev {\n\tvoid *device; \/\/struct ihndlr\n\tint irq_number;\n\tint prio; \/\/struct ihndlr (mo\u017ee\u0161, a i ne mora\u0161 stavit u struct ihndlr ve\u0107 samo ovdje)\n\tuint8 done;\n\tint (*ihandler) (unsigned int, void *device); \/\/struct ihndlr\n};\u003C\/code\u003E\u003Cscript async=\u0022\u0022 crossorigin=\u0022anonymous\u0022 data-hljs-style=\u0022github\u0022 integrity=\u0022sha384-oTqfbnKDrROJYNQZI1U\/\/Vr36HEjwJafOewSUYYyb5OXhv0r2qRQcjAP3yXa4HCg\u0022 onload=\u0022hljsLoader.highlightBlocks(this.parentNode)\u0022 src=\u0022https:\/\/cdn.jsdelivr.net\/gh\/s9e\/hljs-loader@1.0.24\/loader.min.js\u0022\u003E\u003C\/script\u003E\u003C\/pre\u003E\n\n\u003Cp\u003Ei onda listu za the zahtjeve\u003C\/p\u003E\n\u003Cpre\u003E\u003Ccode\u003Estatic list_t zahtjevi;\n\n\/\/ kasnije u func void arch_init_interrupts() inicira\u0161 tu listu zahtjeva\nlist_init(\u0026amp;zahtjevi)\n\n\/\/ u func void arch_interrupt_handler(int irq_num)\n\/\/ dodaje\u0161 interupte u tu listu sortirane u onoj while(ih)\n\/\/ i izvan te petlje vadi\u0161 prekide po najve\u0107em prioritetu i hendla\u0161 ih\u003C\/code\u003E\u003Cscript async=\u0022\u0022 crossorigin=\u0022anonymous\u0022 data-hljs-style=\u0022github\u0022 integrity=\u0022sha384-oTqfbnKDrROJYNQZI1U\/\/Vr36HEjwJafOewSUYYyb5OXhv0r2qRQcjAP3yXa4HCg\u0022 onload=\u0022hljsLoader.highlightBlocks(this.parentNode)\u0022 src=\u0022https:\/\/cdn.jsdelivr.net\/gh\/s9e\/hljs-loader@1.0.24\/loader.min.js\u0022\u003E\u003C\/script\u003E\u003C\/pre\u003E","editedAt":"2022-05-18T17:42:46+00:00","canEdit":false,"canDelete":false,"canHide":false,"canFlag":false,"votes":2,"canVote":false,"canSeeVotes":false,"canReact":false},"relationships":{"user":{"data":{"type":"users","id":"917"}},"discussion":{"data":{"type":"discussions","id":"7437"}},"editedUser":{"data":{"type":"users","id":"917"}},"mentionedBy":{"data":[{"type":"posts","id":"297296"}]},"reactions":{"data":[]}}},{"type":"posts","id":"297296","attributes":{"number":7,"createdAt":"2022-05-19T09:02:23+00:00","contentType":"comment","contentHtml":"\u003Cp\u003E\u003Ca href=\u0022https:\/\/fer.studosi.net\/d\/7437\/4\u0022 class=\u0022PostMention\u0022 data-id=\u0022297209\u0022\u003EOlive Oil\u003C\/a\u003E hvala puno, samo ne\u0161to mi jo\u0161 nije jasno pa ako ti nije problem objasnit:\u003C\/p\u003E\n\n\u003Cul\u003E\u003Cli\u003E\u003Cp\u003E\u0161to ako se trenutno obra\u0111uje prekid sa prioritetom 3, a do\u0111u novi prekidi sa prioritetim 2 i 4:\u003Cbr\u003E\n(1) \u010deka se kraj obrade ovog prekida 3, onda se zove 4 i kad on zavr\u0161i 2 ili\u003Cbr\u003E\n(2) zaustavlja se obrada prekida 3,  pokrene se obrada prekida 4, po zavr\u0161etku se vra\u0107a nazad u obradu prekida 3, kad zavr\u0161i prekid 3, zove prekid 2\u003C\/p\u003E\u003C\/li\u003E\n\n\u003Cli\u003E\u003Cp\u003E\u003Cdel\u003Eprekide generiram  sli\u010dno kao u onom \u003Ccode\u003Etimer.c\u003C\/code\u003E programu sa \u003Ccode\u003Esigev_notify\u003C\/code\u003E?\u003C\/del\u003E, samo zovem prekid sa vecim prioritetom u handleru prekida sa manjim\u003C\/p\u003E\u003C\/li\u003E\n\n\u003Cli\u003E\u003Cp\u003E\u0161ta je ovaj 3. parametar:\u003Cbr\u003E\n \u003Ccode\u003Evoid list_sort_add(list_t *list, void *object, list_h *hdr,  int(*cmp)(void *, void *))\u003C\/code\u003E ,\u003Cbr\u003E\n koliko ja razumijem\u003Cbr\u003E\n \u003Ccode\u003Elist_sort_add(lista_gdje_dodajem, objekt_struct_zahtjev_kojeg_dodajem, ?, funkcija za usporedbu)\u003C\/code\u003E\u003Cbr\u003E\nal opet ne razumijem taj 3. parametar\u003C\/p\u003E\u003C\/li\u003E\u003C\/ul\u003E","editedAt":"2022-05-19T09:05:46+00:00","canEdit":false,"canDelete":false,"canHide":false,"canFlag":false,"votes":0,"canVote":false,"canSeeVotes":false,"canReact":false},"relationships":{"user":{"data":{"type":"users","id":"1148"}},"discussion":{"data":{"type":"discussions","id":"7437"}},"editedUser":{"data":{"type":"users","id":"1148"}},"mentionedBy":{"data":[{"type":"posts","id":"297333"}]},"reactions":{"data":[]}}},{"type":"posts","id":"297287","attributes":{"number":5,"createdAt":"2022-05-19T08:19:29+00:00","contentType":"comment","contentHtml":"\u003Cp\u003EKak raisati prekide (asinkrono nekak pretpostavljam) dok se vrsi obrada prekida?\u003C\/p\u003E ","canEdit":false,"canDelete":false,"canHide":false,"canFlag":false,"votes":0,"canVote":false,"canSeeVotes":false,"canReact":false},"relationships":{"discussion":{"data":{"type":"discussions","id":"7437"}},"user":{"data":{"type":"users","id":"298"}},"mentionedBy":{"data":[{"type":"posts","id":"297290"}]},"reactions":{"data":[]}}},{"type":"posts","id":"297290","attributes":{"number":6,"createdAt":"2022-05-19T08:36:16+00:00","contentType":"comment","contentHtml":"\u003Cp\u003E\u003Ca href=\u0022https:\/\/fer.studosi.net\/d\/7437\/5\u0022 class=\u0022PostMention\u0022 data-id=\u0022297287\u0022\u003EKasperinac\u003C\/a\u003E tako da ga pozoves u toj obradi prekida\u003C\/p\u003E","canEdit":false,"canDelete":false,"canHide":false,"canFlag":false,"votes":2,"canVote":false,"canSeeVotes":false,"canReact":false},"relationships":{"user":{"data":{"type":"users","id":"2619"}},"discussion":{"data":{"type":"discussions","id":"7437"}},"mentionedBy":{"data":[]},"reactions":{"data":[]}}},{"type":"posts","id":"297333","attributes":{"number":10,"createdAt":"2022-05-19T13:15:57+00:00","contentType":"comment","contentHtml":"\u003Cp\u003E\u003Ca href=\u0022https:\/\/fer.studosi.net\/d\/7437\/7\u0022 class=\u0022PostMention\u0022 data-id=\u0022297296\u0022\u003Edinoo\u003C\/a\u003E u onoj petlji while(ih) dodaje\u0161 prekide, a izvan nje u nekoj drugoj petlji hendla\u0161 prekide sve dok ih ima i sve dok postoji prekid koji nije hendlan. \u003Cbr\u003E\nnpr u to drugoj petlji stavi\u0161 redom (meni je tak):\u003C\/p\u003E\n\u003Cpre\u003E\u003Ccode\u003Epi = list_get(\u0026amp;pr_reqs, FIRST);\nwhile (pi \u0026amp;\u0026amp; !pi-\u0026gt;done)\n{\np-\u0026gt;done = 1\nenable_interrupts(); \/\/ funkcija ve\u0107 postoji\npi-\u0026gt;ihandler(pi-\u0026gt;irq_number, pi-\u0026gt;device);\ndisable_interrupts(); \/\/ postoji\nlist_remove(\u0026amp;pr_reqs, FIRST, NULL);\nkfree(pi);\npi = list_get(\u0026amp;pr_reqs, FIRST);\n}\u003C\/code\u003E\u003Cscript async=\u0022\u0022 crossorigin=\u0022anonymous\u0022 data-hljs-style=\u0022github\u0022 integrity=\u0022sha384-oTqfbnKDrROJYNQZI1U\/\/Vr36HEjwJafOewSUYYyb5OXhv0r2qRQcjAP3yXa4HCg\u0022 onload=\u0022hljsLoader.highlightBlocks(this.parentNode)\u0022 src=\u0022https:\/\/cdn.jsdelivr.net\/gh\/s9e\/hljs-loader@1.0.24\/loader.min.js\u0022\u003E\u003C\/script\u003E\u003C\/pre\u003E\n\u003Cp\u003Eovaj tre\u0107i parametar je ne znam ni ja to\u010dno \u0161to.\u003C\/p\u003E \n\n\u003Cp\u003Eimam ne\u0161to tipa\u003C\/p\u003E \n\u003Cpre\u003E\u003Ccode\u003Elist_h *p_lh; \/\/ nisam ni ja siguran za list_h \u0161to je, samo sam vidio da se koristio\n\n\/\/ u list_sort_add za tre\u0107i parametar stavim p_lh, ovo je u onoj petlji while(ih)\np_lh = kmalloc(sizeof(list_h));\u003C\/code\u003E\u003Cscript async=\u0022\u0022 crossorigin=\u0022anonymous\u0022 data-hljs-style=\u0022github\u0022 integrity=\u0022sha384-oTqfbnKDrROJYNQZI1U\/\/Vr36HEjwJafOewSUYYyb5OXhv0r2qRQcjAP3yXa4HCg\u0022 onload=\u0022hljsLoader.highlightBlocks(this.parentNode)\u0022 src=\u0022https:\/\/cdn.jsdelivr.net\/gh\/s9e\/hljs-loader@1.0.24\/loader.min.js\u0022\u003E\u003C\/script\u003E\u003C\/pre\u003E\n\u003Cp\u003Enisam ni ja ba\u0161 siguran u sve to, al na neku foru mi je radilo\u003C\/p\u003E","canEdit":false,"canDelete":false,"canHide":false,"canFlag":false,"votes":2,"canVote":false,"canSeeVotes":false,"canReact":false},"relationships":{"user":{"data":{"type":"users","id":"917"}},"discussion":{"data":{"type":"discussions","id":"7437"}},"mentionedBy":{"data":[]},"reactions":{"data":[]}}},{"type":"posts","id":"297304","attributes":{"number":8,"createdAt":"2022-05-19T10:13:56+00:00","contentType":"comment","contentHtml":"\u003Cp\u003EJe li netko imao lab danas? Kakav je zadatak?\u003C\/p\u003E","canEdit":false,"canDelete":false,"canHide":false,"canFlag":false,"votes":0,"canVote":false,"canSeeVotes":false,"canReact":false},"relationships":{"discussion":{"data":{"type":"discussions","id":"7437"}},"user":{"data":{"type":"users","id":"515"}},"mentionedBy":{"data":[{"type":"posts","id":"297318"}]},"reactions":{"data":[]}}},{"type":"posts","id":"297318","attributes":{"number":9,"createdAt":"2022-05-19T11:43:58+00:00","contentType":"comment","contentHtml":"\u003Cp\u003E\u003Ca href=\u0022https:\/\/fer.studosi.net\/d\/7437\/8\u0022 class=\u0022PostMention\u0022 data-id=\u0022297304\u0022\u003EMaddy\u003C\/a\u003E\u003C\/p\u003E \n\u003Col style=\u0022list-style-type:decimal\u0022 start=\u00224\u0022\u003E\u003Cli\u003Ebio simulacija prekida, samo izazvat par prekida slicno primjeru koji smo trebali imati\u003C\/li\u003E\n\u003Cli\u003Eimplementirati rename funkciju za datoteke\u003C\/li\u003E\u003C\/ol\u003E","canEdit":false,"canDelete":false,"canHide":false,"canFlag":false,"votes":0,"canVote":false,"canSeeVotes":false,"canReact":false},"relationships":{"user":{"data":{"type":"users","id":"2619"}},"discussion":{"data":{"type":"discussions","id":"7437"}},"mentionedBy":{"data":[]},"reactions":{"data":[]}}},{"type":"posts","id":"297338","attributes":{"number":11,"createdAt":"2022-05-19T14:04:12+00:00","contentType":"comment","contentHtml":"\u003Cp\u003EKad dodamo argument prioritet u funkciju za registraciju koje da prioritete dodamo ovim prekidima koji vec postoje\u003C\/p\u003E","canEdit":false,"canDelete":false,"canHide":false,"canFlag":false,"votes":0,"canVote":false,"canSeeVotes":false,"canReact":false},"relationships":{"discussion":{"data":{"type":"discussions","id":"7437"}},"user":{"data":{"type":"users","id":"53"}},"mentionedBy":{"data":[{"type":"posts","id":"297343"}]},"reactions":{"data":[]}}},{"type":"posts","id":"297343","attributes":{"number":12,"createdAt":"2022-05-19T14:36:03+00:00","contentType":"comment","contentHtml":"\u003Cp\u003E\u003Ca href=\u0022https:\/\/fer.studosi.net\/d\/7437\/11\u0022 class=\u0022PostMention\u0022 data-id=\u0022297338\u0022\u003EPeter Jordanson\u003C\/a\u003E Mislim da nije bitno, ja sam svima dodijelio 1, osim ovima koje koristim za demonstraciju\u003C\/p\u003E","canEdit":false,"canDelete":false,"canHide":false,"canFlag":false,"votes":1,"canVote":false,"canSeeVotes":false,"canReact":false},"relationships":{"user":{"data":{"type":"users","id":"1148"}},"discussion":{"data":{"type":"discussions","id":"7437"}},"mentionedBy":{"data":[]},"reactions":{"data":[]}}},{"type":"posts","id":"297344","attributes":{"number":13,"createdAt":"2022-05-19T14:38:40+00:00","contentType":"comment","contentHtml":"\u003Cp\u003EDanas je jos bio zadatak napisati funkciju delete(filename)\u003C\/p\u003E","canEdit":false,"canDelete":false,"canHide":false,"canFlag":false,"votes":1,"canVote":false,"canSeeVotes":false,"canReact":false},"relationships":{"discussion":{"data":{"type":"discussions","id":"7437"}},"user":{"data":{"type":"users","id":"178"}},"mentionedBy":{"data":[]},"reactions":{"data":[]}}},{"type":"users","id":"181","attributes":{"username":"Darla","displayName":"Darla","avatarUrl":null,"slug":"Darla","joinTime":"2020-03-17T15:05:12+00:00","discussionCount":1,"commentCount":46,"canEdit":false,"canEditCredentials":false,"canEditGroups":false,"canDelete":false,"lastSeenAt":"2022-06-26T07:33:39+00:00","canSuspend":false,"fof-upload-uploadCountCurrent":4,"fof-upload-uploadCountAll":5,"ignored":false,"canBeIgnored":true,"canEditOwnNickname":false,"blocksPd":false,"cannotBeDirectMessaged":false,"canViewRankingPage":true,"points":-1,"canEditPolls":false,"canStartPolls":false,"canSelfEditPolls":false,"canVotePolls":false,"canViewWarnings":false,"canManageWarnings":false,"canDeleteWarnings":false,"visibleWarningCount":2},"relationships":{"groups":{"data":[]},"ranks":{"data":[]}}},{"type":"users","id":"917","attributes":{"username":"Bucc","displayName":"Olive Oil","avatarUrl":"https:\/\/fer.studosi.net\/assets\/avatars\/DJdUMEIPMPOW3Wsk.png","slug":"Bucc","joinTime":"2020-04-05T20:07:36+00:00","discussionCount":1,"commentCount":317,"canEdit":false,"canEditCredentials":false,"canEditGroups":false,"canDelete":false,"lastSeenAt":"2022-07-03T13:45:10+00:00","canSuspend":false,"fof-upload-uploadCountCurrent":58,"fof-upload-uploadCountAll":58,"ignored":false,"canBeIgnored":true,"canEditOwnNickname":false,"blocksPd":false,"cannotBeDirectMessaged":false,"canViewRankingPage":true,"points":217,"canEditPolls":false,"canStartPolls":false,"canSelfEditPolls":false,"canVotePolls":false,"canViewWarnings":false,"canManageWarnings":false,"canDeleteWarnings":false,"visibleWarningCount":3},"relationships":{"groups":{"data":[]},"ranks":{"data":[]}}},{"type":"users","id":"1148","attributes":{"username":"nnn","displayName":"dinoo","avatarUrl":"https:\/\/fer.studosi.net\/assets\/avatars\/mtWEsyhYg5gjt03x.png","slug":"nnn","joinTime":"2020-04-22T20:27:08+00:00","discussionCount":10,"commentCount":438,"canEdit":false,"canEditCredentials":false,"canEditGroups":false,"canDelete":false,"canSuspend":false,"fof-upload-uploadCountCurrent":130,"fof-upload-uploadCountAll":130,"ignored":false,"canBeIgnored":true,"canEditOwnNickname":false,"blocksPd":false,"cannotBeDirectMessaged":false,"canViewRankingPage":true,"points":57,"canEditPolls":false,"canStartPolls":false,"canSelfEditPolls":false,"canVotePolls":false,"canViewWarnings":false,"canManageWarnings":false,"canDeleteWarnings":false,"visibleWarningCount":2},"relationships":{"groups":{"data":[]},"ranks":{"data":[]}}},{"type":"users","id":"1","attributes":{"username":"micho","displayName":"M\u0335\u0351\u0340\u035d\u0329\u0327i\u0336\u0302\u0309\u034d\u0107\u0334\u033e\u0301\u0300\u031do\u0336\u0342\u033d\u033a\u031f\u0323","avatarUrl":"https:\/\/fer.studosi.net\/assets\/avatars\/4VxmgFn9tHbDRc1p.png","slug":"micho"}},{"type":"users","id":"298","attributes":{"username":"Kasperinac","displayName":"Kasperinac","avatarUrl":null,"slug":"Kasperinac","joinTime":"2020-03-17T20:48:05+00:00","discussionCount":4,"commentCount":41,"canEdit":false,"canEditCredentials":false,"canEditGroups":false,"canDelete":false,"lastSeenAt":"2022-07-03T12:44:08+00:00","canSuspend":false,"fof-upload-uploadCountCurrent":3,"fof-upload-uploadCountAll":3,"ignored":false,"canBeIgnored":true,"canEditOwnNickname":false,"blocksPd":false,"cannotBeDirectMessaged":false,"canViewRankingPage":true,"points":16,"canEditPolls":false,"canStartPolls":false,"canSelfEditPolls":false,"canVotePolls":false,"canViewWarnings":false,"canManageWarnings":false,"canDeleteWarnings":false,"visibleWarningCount":2},"relationships":{"groups":{"data":[]},"ranks":{"data":[]}}},{"type":"users","id":"2619","attributes":{"username":"Unity","displayName":"Sgt. Forge","avatarUrl":"https:\/\/fer.studosi.net\/assets\/avatars\/9nJH6WSgjwUjq8w6.png","slug":"Unity","joinTime":"2021-11-06T22:04:40+00:00","discussionCount":0,"commentCount":20,"canEdit":false,"canEditCredentials":false,"canEditGroups":false,"canDelete":false,"canSuspend":false,"fof-upload-uploadCountCurrent":1,"fof-upload-uploadCountAll":1,"ignored":false,"canBeIgnored":true,"canEditOwnNickname":false,"blocksPd":false,"cannotBeDirectMessaged":false,"canViewRankingPage":true,"points":21,"canEditPolls":false,"canStartPolls":false,"canSelfEditPolls":false,"canVotePolls":false,"canViewWarnings":false,"canManageWarnings":false,"canDeleteWarnings":false,"visibleWarningCount":0},"relationships":{"groups":{"data":[]},"ranks":{"data":[]}}},{"type":"users","id":"515","attributes":{"username":"Ardura","displayName":"Maddy","avatarUrl":"https:\/\/fer.studosi.net\/assets\/avatars\/w05PEYr5g9P7LlW7.png","slug":"Ardura","joinTime":"2020-03-20T15:38:23+00:00","discussionCount":0,"commentCount":96,"canEdit":false,"canEditCredentials":false,"canEditGroups":false,"canDelete":false,"lastSeenAt":"2022-07-02T15:51:23+00:00","canSuspend":false,"fof-upload-uploadCountCurrent":9,"fof-upload-uploadCountAll":9,"ignored":false,"canBeIgnored":true,"canEditOwnNickname":false,"blocksPd":false,"cannotBeDirectMessaged":false,"canViewRankingPage":true,"points":47,"canEditPolls":false,"canStartPolls":false,"canSelfEditPolls":false,"canVotePolls":false,"canViewWarnings":false,"canManageWarnings":false,"canDeleteWarnings":false,"visibleWarningCount":1},"relationships":{"groups":{"data":[]},"ranks":{"data":[]}}},{"type":"users","id":"53","attributes":{"username":"Dlaid","displayName":"Peter Jordanson","avatarUrl":null,"slug":"Dlaid","joinTime":"2020-03-17T13:03:05+00:00","discussionCount":0,"commentCount":129,"canEdit":false,"canEditCredentials":false,"canEditGroups":false,"canDelete":false,"canSuspend":false,"fof-upload-uploadCountCurrent":15,"fof-upload-uploadCountAll":15,"ignored":false,"canBeIgnored":true,"canEditOwnNickname":false,"blocksPd":false,"cannotBeDirectMessaged":false,"canViewRankingPage":true,"points":12,"canEditPolls":false,"canStartPolls":false,"canSelfEditPolls":false,"canVotePolls":false,"canViewWarnings":false,"canManageWarnings":false,"canDeleteWarnings":false,"visibleWarningCount":3},"relationships":{"groups":{"data":[]},"ranks":{"data":[]}}},{"type":"users","id":"178","attributes":{"username":"Valentino","displayName":"Valentino","avatarUrl":"https:\/\/fer.studosi.net\/assets\/avatars\/24jIPbWhf2QVC7pf.png","slug":"Valentino","joinTime":"2020-03-17T15:04:07+00:00","discussionCount":4,"commentCount":131,"canEdit":false,"canEditCredentials":false,"canEditGroups":false,"canDelete":false,"lastSeenAt":"2022-07-03T14:29:53+00:00","canSuspend":false,"fof-upload-uploadCountCurrent":11,"fof-upload-uploadCountAll":11,"ignored":false,"canBeIgnored":true,"canEditOwnNickname":false,"blocksPd":false,"cannotBeDirectMessaged":false,"canViewRankingPage":true,"points":64,"canEditPolls":false,"canStartPolls":false,"canSelfEditPolls":false,"canVotePolls":false,"canViewWarnings":false,"canManageWarnings":false,"canDeleteWarnings":false,"visibleWarningCount":1},"relationships":{"groups":{"data":[]},"ranks":{"data":[]}}},{"type":"tags","id":"2","attributes":{"name":"FER","description":"Sve vezano za Fakultet elektrotehnike i ra\u010dunarstva","slug":"fer","color":"#a32e2e","backgroundUrl":null,"backgroundMode":null,"icon":"fas fa-desktop","discussionCount":2095,"position":2,"defaultSort":null,"isChild":false,"isHidden":false,"lastPostedAt":"2022-07-01T21:35:55+00:00","canStartDiscussion":false,"canAddToDiscussion":false,"subscription":null}},{"type":"tags","id":"4","attributes":{"name":"Laboratorijske vje\u017ebe","description":"Organizacija, pitanja i odgovori oko laboratorijskih vje\u017ebi","slug":"lab","color":"#888","backgroundUrl":null,"backgroundMode":null,"icon":"fas fa-vial","discussionCount":399,"position":null,"defaultSort":null,"isChild":false,"isHidden":true,"lastPostedAt":"2022-06-24T14:48:32+00:00","canStartDiscussion":false,"canAddToDiscussion":false,"subscription":null}},{"type":"tags","id":"340","attributes":{"name":"Operacijski sustavi za ugra\u0111ena ra\u010dunala","description":"","slug":"oszur","color":"#a32e2e","backgroundUrl":null,"backgroundMode":null,"icon":"","discussionCount":6,"position":306,"defaultSort":null,"isChild":true,"isHidden":true,"lastPostedAt":"2022-06-28T18:41:51+00:00","canStartDiscussion":false,"canAddToDiscussion":false,"subscription":null},"relationships":{"parent":{"data":{"type":"tags","id":"2"}}}}]}});
+                flarum.core.app.bootExtensions(flarum.extensions);
+                flarum.core.app.boot();
+            } catch (e) {
+                var error = document.getElementById('flarum-loading-error');
+                error.innerHTML += document.getElementById('flarum-content').textContent;
+                error.style.display = 'block';
+                throw e;
+            }
+        </script>
+
+        
+    </body>
+</html>
