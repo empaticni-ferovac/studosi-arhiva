@@ -93,11 +93,7 @@
     </div>
 </div>
 
-<noscript id="flarum-content">
-    <div class="container">
-    <h2>Sve rasprave</h2>
-
-        <?php
+ <?php
 echo "Here are our files";
 $path = "d/";
 $dh = opendir($path);
@@ -110,6 +106,11 @@ while (($file = readdir($dh)) !== false) {
 }
 closedir($dh);
 ?>
+        
+        
+<noscript id="flarum-content">
+    <div class="container">
+    <h2>Sve rasprave</h2>
         
         
     <ul>
